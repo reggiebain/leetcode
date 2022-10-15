@@ -8,7 +8,6 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         s_dict = {}
-        output = []# Declare output
         for s in strs:
             alph = ''.join(sorted(s)) # Alphabetize string
             if alph not in s_dict: # If key not in hash
