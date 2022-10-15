@@ -1,3 +1,9 @@
+# Leetcode 125 - Solution
+# Problem - A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, 
+# it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, return true if it is a 
+# palindrome, or false otherwise.
+# Link to post: https://leetcode.com/problems/valid-palindrome/discuss/2704316/Python-or-Faster-than-97-or-Explained
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         # Lowercase all letters
